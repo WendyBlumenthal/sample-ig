@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir file:///C:/Temp/FHIR/fhir-single.xsd">
 	<id value="myPatient"/>
 	<url value="http://example.org/fhir/uv/myig/StructureDefinition/myPatient"/>
-	<name value="MyPatient"/>
+	<name value="myPatient"/>
 	<title value="My Patient Profile"/>
 	<status value="draft"/>
 	<description value="A profile showing the use of XML to author profiles"/>
