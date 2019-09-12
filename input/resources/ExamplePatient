@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir file:///C:/Temp/FHIR/fhir-single.xsd">
+	<id value="myPatient"/>
+	<url value="http://example.org/fhir/uv/myig/StructureDefinition/myPatient"/>
+	<name value="MyPatient"/>
+	<title value="My Patient Profile"/>
+	<status value="draft"/>
+	<description value="A profile showing the use of XML to author profiles"/>
+	<fhirVersion value="4.0.0"/>
+	<kind value="resource"/>
+	<abstract value="false"/>
+	<type value="Patient"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Patient"/>
+	<derivation value="constraint"/>
+	<differential>
+		<element id="Patient.identifier">
+			<path value="Patient.identifier"/>
+		</element>
+		<element id="Patient.name">
+			<path value="Patient.name"/>
+		</element>
+		<element id="Patient.birthDate">
+			<path value="Patient.birthDate"/>
+			<min value="1"/>
+			<max value="1"/>
+		</element>
+	</differential>
+</StructureDefinition>
